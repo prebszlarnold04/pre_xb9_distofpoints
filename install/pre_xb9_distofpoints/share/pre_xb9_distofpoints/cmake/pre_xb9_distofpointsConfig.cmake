@@ -1,0 +1,1 @@
+/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints/ament_cmake_core/pre_xb9_distofpointsConfig.cmake

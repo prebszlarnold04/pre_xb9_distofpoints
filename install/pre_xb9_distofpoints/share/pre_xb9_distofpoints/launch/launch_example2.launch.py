@@ -1,0 +1,1 @@
+/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/launch/launch_example2.launch.py
