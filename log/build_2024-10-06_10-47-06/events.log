@@ -1,0 +1,255 @@
+[0.000000] (-) TimerEvent: {}
+[0.001656] (pre_xb9_distofpoints) JobQueued: {'identifier': 'pre_xb9_distofpoints', 'dependencies': OrderedDict()}
+[0.001778] (pre_xb9_distofpoints) JobStarted: {'identifier': 'pre_xb9_distofpoints'}
+[0.017233] (pre_xb9_distofpoints) JobProgress: {'identifier': 'pre_xb9_distofpoints', 'progress': 'cmake'}
+[0.018766] (pre_xb9_distofpoints) JobProgress: {'identifier': 'pre_xb9_distofpoints', 'progress': 'build'}
+[0.020442] (pre_xb9_distofpoints) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints', '--', '-j16', '-l16'], 'cwd': '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sajat2024'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/sajat2024'), ('OLDPWD', '/home/sajat2024'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sajat2024'), ('NAME', 'DESKTOP-E62VGF9'), ('WSL_INTEROP', '/run/WSL/374_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Prebszl Arnold/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Prebszl Arnold/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Prebszl Arnold/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Prebszl Arnold/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Prebszl Arnold/.dotnet/tools:/snap/bin'), ('WT_SESSION', '63479a8b-f1cf-4f7d-9cbb-114e1b169470'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '98'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.064822] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099258] (-) TimerEvent: {}
+[0.199905] (-) TimerEvent: {}
+[0.300453] (-) TimerEvent: {}
+[0.308033] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400637] (-) TimerEvent: {}
+[0.483152] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.487164] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.500153] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.526684] (-) TimerEvent: {}
+[0.527057] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.544343] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.596349] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.598314] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.626771] (-) TimerEvent: {}
+[0.727313] (-) TimerEvent: {}
+[0.828036] (-) TimerEvent: {}
+[0.928778] (-) TimerEvent: {}
+[1.029436] (-) TimerEvent: {}
+[1.130106] (-) TimerEvent: {}
+[1.230860] (-) TimerEvent: {}
+[1.331521] (-) TimerEvent: {}
+[1.432210] (-) TimerEvent: {}
+[1.532793] (-) TimerEvent: {}
+[1.633295] (-) TimerEvent: {}
+[1.733852] (-) TimerEvent: {}
+[1.834360] (-) TimerEvent: {}
+[1.934934] (-) TimerEvent: {}
+[2.035455] (-) TimerEvent: {}
+[2.135991] (-) TimerEvent: {}
+[2.236438] (-) TimerEvent: {}
+[2.336911] (-) TimerEvent: {}
+[2.437463] (-) TimerEvent: {}
+[2.537992] (-) TimerEvent: {}
+[2.638492] (-) TimerEvent: {}
+[2.739048] (-) TimerEvent: {}
+[2.839553] (-) TimerEvent: {}
+[2.940088] (-) TimerEvent: {}
+[3.040544] (-) TimerEvent: {}
+[3.141087] (-) TimerEvent: {}
+[3.241751] (-) TimerEvent: {}
+[3.342244] (-) TimerEvent: {}
+[3.442773] (-) TimerEvent: {}
+[3.543379] (-) TimerEvent: {}
+[3.643972] (-) TimerEvent: {}
+[3.744585] (-) TimerEvent: {}
+[3.845218] (-) TimerEvent: {}
+[3.945876] (-) TimerEvent: {}
+[4.046471] (-) TimerEvent: {}
+[4.146959] (-) TimerEvent: {}
+[4.247518] (-) TimerEvent: {}
+[4.281961] (pre_xb9_distofpoints) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.347634] (-) TimerEvent: {}
+[4.359436] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.447793] (-) TimerEvent: {}
+[4.489348] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.511096] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Generating done\n'}
+[4.514724] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Build files have been written to: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints\n'}
+[4.547992] (-) TimerEvent: {}
+[4.554414] (pre_xb9_distofpoints) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target coordpublisher\x1b[0m\n'}
+[4.566028] (pre_xb9_distofpoints) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/coordsubscriber.dir/src/coordsubscriber.cpp.o\x1b[0m\n'}
+[4.588237] (pre_xb9_distofpoints) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/coordpublisher.dir/src/coordpublisher.cpp.o\x1b[0m\n'}
+[4.648149] (-) TimerEvent: {}
+[4.748777] (-) TimerEvent: {}
+[4.849314] (-) TimerEvent: {}
+[4.949879] (-) TimerEvent: {}
+[5.050406] (-) TimerEvent: {}
+[5.150916] (-) TimerEvent: {}
+[5.251430] (-) TimerEvent: {}
+[5.352116] (-) TimerEvent: {}
+[5.452711] (-) TimerEvent: {}
+[5.553246] (-) TimerEvent: {}
+[5.653896] (-) TimerEvent: {}
+[5.754374] (-) TimerEvent: {}
+[5.854813] (-) TimerEvent: {}
+[5.955435] (-) TimerEvent: {}
+[6.055949] (-) TimerEvent: {}
+[6.156495] (-) TimerEvent: {}
+[6.257060] (-) TimerEvent: {}
+[6.357704] (-) TimerEvent: {}
+[6.458283] (-) TimerEvent: {}
+[6.558856] (-) TimerEvent: {}
+[6.659469] (-) TimerEvent: {}
+[6.760387] (-) TimerEvent: {}
+[6.860960] (-) TimerEvent: {}
+[6.961537] (-) TimerEvent: {}
+[7.062173] (-) TimerEvent: {}
+[7.162735] (-) TimerEvent: {}
+[7.263330] (-) TimerEvent: {}
+[7.364348] (-) TimerEvent: {}
+[7.464865] (-) TimerEvent: {}
+[7.565324] (-) TimerEvent: {}
+[7.665858] (-) TimerEvent: {}
+[7.766464] (-) TimerEvent: {}
+[7.867038] (-) TimerEvent: {}
+[7.967615] (-) TimerEvent: {}
+[8.068190] (-) TimerEvent: {}
+[8.168696] (-) TimerEvent: {}
+[8.269211] (-) TimerEvent: {}
+[8.369787] (-) TimerEvent: {}
+[8.470811] (-) TimerEvent: {}
+[8.571384] (-) TimerEvent: {}
+[8.672054] (-) TimerEvent: {}
+[8.772624] (-) TimerEvent: {}
+[8.873118] (-) TimerEvent: {}
+[8.973677] (-) TimerEvent: {}
+[9.074152] (-) TimerEvent: {}
+[9.174748] (-) TimerEvent: {}
+[9.275331] (-) TimerEvent: {}
+[9.376584] (-) TimerEvent: {}
+[9.477237] (-) TimerEvent: {}
+[9.577884] (-) TimerEvent: {}
+[9.678458] (-) TimerEvent: {}
+[9.779372] (-) TimerEvent: {}
+[9.879864] (-) TimerEvent: {}
+[9.980382] (-) TimerEvent: {}
+[10.080906] (-) TimerEvent: {}
+[10.182150] (-) TimerEvent: {}
+[10.282789] (-) TimerEvent: {}
+[10.383311] (-) TimerEvent: {}
+[10.483817] (-) TimerEvent: {}
+[10.584273] (-) TimerEvent: {}
+[10.685558] (-) TimerEvent: {}
+[10.786042] (-) TimerEvent: {}
+[10.886579] (-) TimerEvent: {}
+[10.987470] (-) TimerEvent: {}
+[11.088513] (-) TimerEvent: {}
+[11.189354] (-) TimerEvent: {}
+[11.289820] (-) TimerEvent: {}
+[11.390390] (-) TimerEvent: {}
+[11.491007] (-) TimerEvent: {}
+[11.591644] (-) TimerEvent: {}
+[11.692182] (-) TimerEvent: {}
+[11.792611] (-) TimerEvent: {}
+[11.893091] (-) TimerEvent: {}
+[11.993600] (-) TimerEvent: {}
+[12.094103] (-) TimerEvent: {}
+[12.195305] (-) TimerEvent: {}
+[12.295793] (-) TimerEvent: {}
+[12.396729] (-) TimerEvent: {}
+[12.497224] (-) TimerEvent: {}
+[12.597695] (-) TimerEvent: {}
+[12.698295] (-) TimerEvent: {}
+[12.798913] (-) TimerEvent: {}
+[12.899474] (-) TimerEvent: {}
+[12.912842] (pre_xb9_distofpoints) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable coordpublisher\x1b[0m\n'}
+[12.999657] (-) TimerEvent: {}
+[13.100234] (-) TimerEvent: {}
+[13.200851] (-) TimerEvent: {}
+[13.288338] (pre_xb9_distofpoints) StdoutLine: {'line': b'[ 75%] Built target coordpublisher\n'}
+[13.300995] (-) TimerEvent: {}
+[13.401513] (-) TimerEvent: {}
+[13.502926] (-) TimerEvent: {}
+[13.603476] (-) TimerEvent: {}
+[13.704434] (-) TimerEvent: {}
+[13.805033] (-) TimerEvent: {}
+[13.905631] (-) TimerEvent: {}
+[14.006260] (-) TimerEvent: {}
+[14.106964] (-) TimerEvent: {}
+[14.207607] (-) TimerEvent: {}
+[14.308167] (-) TimerEvent: {}
+[14.408728] (-) TimerEvent: {}
+[14.509277] (-) TimerEvent: {}
+[14.609866] (-) TimerEvent: {}
+[14.710623] (-) TimerEvent: {}
+[14.811205] (-) TimerEvent: {}
+[14.911826] (-) TimerEvent: {}
+[15.012458] (-) TimerEvent: {}
+[15.113071] (-) TimerEvent: {}
+[15.213598] (-) TimerEvent: {}
+[15.314510] (-) TimerEvent: {}
+[15.415060] (-) TimerEvent: {}
+[15.515590] (-) TimerEvent: {}
+[15.616260] (-) TimerEvent: {}
+[15.716831] (-) TimerEvent: {}
+[15.817425] (-) TimerEvent: {}
+[15.918054] (-) TimerEvent: {}
+[16.018681] (-) TimerEvent: {}
+[16.119319] (-) TimerEvent: {}
+[16.219967] (-) TimerEvent: {}
+[16.320548] (-) TimerEvent: {}
+[16.421138] (-) TimerEvent: {}
+[16.522123] (-) TimerEvent: {}
+[16.622684] (-) TimerEvent: {}
+[16.723256] (-) TimerEvent: {}
+[16.823830] (-) TimerEvent: {}
+[16.924469] (-) TimerEvent: {}
+[17.025441] (-) TimerEvent: {}
+[17.126037] (-) TimerEvent: {}
+[17.226593] (-) TimerEvent: {}
+[17.327161] (-) TimerEvent: {}
+[17.427748] (-) TimerEvent: {}
+[17.528745] (-) TimerEvent: {}
+[17.629314] (-) TimerEvent: {}
+[17.729896] (-) TimerEvent: {}
+[17.830514] (-) TimerEvent: {}
+[17.931055] (-) TimerEvent: {}
+[18.031636] (-) TimerEvent: {}
+[18.132282] (-) TimerEvent: {}
+[18.232888] (-) TimerEvent: {}
+[18.333456] (-) TimerEvent: {}
+[18.434022] (-) TimerEvent: {}
+[18.534621] (-) TimerEvent: {}
+[18.635181] (-) TimerEvent: {}
+[18.735661] (-) TimerEvent: {}
+[18.836205] (-) TimerEvent: {}
+[18.936772] (-) TimerEvent: {}
+[19.037322] (-) TimerEvent: {}
+[19.137882] (-) TimerEvent: {}
+[19.238502] (-) TimerEvent: {}
+[19.327133] (pre_xb9_distofpoints) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable coordsubscriber\x1b[0m\n'}
+[19.338593] (-) TimerEvent: {}
+[19.439028] (-) TimerEvent: {}
+[19.539583] (-) TimerEvent: {}
+[19.640624] (-) TimerEvent: {}
+[19.741180] (-) TimerEvent: {}
+[19.841828] (-) TimerEvent: {}
+[19.938131] (pre_xb9_distofpoints) StdoutLine: {'line': b'[100%] Built target coordsubscriber\n'}
+[19.941909] (-) TimerEvent: {}
+[19.969511] (pre_xb9_distofpoints) CommandEnded: {'returncode': 0}
+[20.013492] (pre_xb9_distofpoints) JobProgress: {'identifier': 'pre_xb9_distofpoints', 'progress': 'install'}
+[20.024206] (pre_xb9_distofpoints) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints'], 'cwd': '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sajat2024'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/sajat2024'), ('OLDPWD', '/home/sajat2024'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sajat2024'), ('NAME', 'DESKTOP-E62VGF9'), ('WSL_INTEROP', '/run/WSL/374_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Prebszl Arnold/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Prebszl Arnold/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Prebszl Arnold/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Prebszl Arnold/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Prebszl Arnold/.dotnet/tools:/snap/bin'), ('WT_SESSION', '63479a8b-f1cf-4f7d-9cbb-114e1b169470'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '98'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[20.035454] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.036056] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/launch\n'}
+[20.036278] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/launch/launch_example1.launch.py\n'}
+[20.036539] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/launch/launch_example2.launch.py\n'}
+[20.036701] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Installing: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/lib/pre_xb9_distofpoints/coordpublisher\n'}
+[20.039806] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Set runtime path of "/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/lib/pre_xb9_distofpoints/coordpublisher" to ""\n'}
+[20.040296] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Installing: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/lib/pre_xb9_distofpoints/coordsubscriber\n'}
+[20.042030] (-) TimerEvent: {}
+[20.052393] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Set runtime path of "/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/lib/pre_xb9_distofpoints/coordsubscriber" to ""\n'}
+[20.052667] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/ament_index/resource_index/package_run_dependencies/pre_xb9_distofpoints\n'}
+[20.052833] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/ament_index/resource_index/parent_prefix_path/pre_xb9_distofpoints\n'}
+[20.052976] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/environment/ament_prefix_path.sh\n'}
+[20.053134] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Installing: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/environment/ament_prefix_path.dsv\n'}
+[20.053274] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/environment/path.sh\n'}
+[20.053406] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Installing: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/environment/path.dsv\n'}
+[20.053713] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/local_setup.bash\n'}
+[20.053895] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/local_setup.sh\n'}
+[20.054076] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/local_setup.zsh\n'}
+[20.054217] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Installing: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/local_setup.dsv\n'}
+[20.054535] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Installing: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/package.dsv\n'}
+[20.054778] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/ament_index/resource_index/packages/pre_xb9_distofpoints\n'}
+[20.054942] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/cmake/pre_xb9_distofpointsConfig.cmake\n'}
+[20.055085] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/cmake/pre_xb9_distofpointsConfig-version.cmake\n'}
+[20.055258] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/package.xml\n'}
+[20.058177] (pre_xb9_distofpoints) CommandEnded: {'returncode': 0}
+[20.128864] (pre_xb9_distofpoints) JobEnded: {'identifier': 'pre_xb9_distofpoints', 'rc': 0}
+[20.130469] (-) EventReactorShutdown: {}

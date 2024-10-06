@@ -21,14 +21,16 @@ set(ament_dependencies
   geometry_msgs
 )
 
-# add_executable(simple_sub_node src/print_pose.cpp)
-# ament_target_dependencies(simple_sub_node ${ament_dependencies} )
-
+add_executable(coordpublisher src/coordpublisher.cpp)
+ament_target_dependencies(coordpublisher rclcpp geometry_msgs)
+add_executable(coordsubscriber src/coordsubscriber.cpp)
+ament_target_dependencies(coordsubscriber rclcpp geometry_msgs)
 install(DIRECTORY launch
   DESTINATION share/${PROJECT_NAME})
 
 install(TARGETS
-# simple_sub_node
+coordpublisher
+coordsubscriber
 DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

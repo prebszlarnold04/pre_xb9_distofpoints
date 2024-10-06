@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:31 (install):
+  install TARGETS given target "subscriber" which does not exist.
+
+[0m

@@ -1,0 +1,61 @@
+[0.018s] Invoking command in '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints': /usr/bin/cmake /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints -DCMAKE_INSTALL_PREFIX=/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints
+[0.156s] -- The C compiler identification is GNU 11.4.0
+[0.486s] -- The CXX compiler identification is GNU 11.4.0
+[0.708s] -- Detecting C compiler ABI info
+[0.868s] -- Detecting C compiler ABI info - done
+[0.881s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.881s] -- Detecting C compile features
+[0.882s] -- Detecting C compile features - done
+[0.888s] -- Detecting CXX compiler ABI info
+[1.073s] -- Detecting CXX compiler ABI info - done
+[1.099s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.099s] -- Detecting CXX compile features
+[1.101s] -- Detecting CXX compile features - done
+[1.109s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.373s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.513s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.678s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.686s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.699s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.720s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.745s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.839s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.844s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.715s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.645s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.376s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.391s] -- Looking for pthread.h
+[5.556s] -- Looking for pthread.h - found
+[5.557s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.717s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.718s] -- Found Threads: TRUE  
+[5.804s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.909s] Error parsing '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/package.xml':
+[5.983s] Traceback (most recent call last):
+[5.983s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[5.983s]     main()
+[5.983s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[5.983s]     raise e
+[5.983s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[5.983s]     package = parse_package_string(
+[5.983s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[5.984s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[5.984s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/package.xml':
+[5.984s] Error(s):
+[5.984s] - The generic dependency on 'rclcpp' is redundant with: build_depend, exec_depend
+[5.984s] - The generic dependency on 'geometry_msgs' is redundant with: build_depend, exec_depend
+[6.008s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[6.008s]   execute_process(/usr/bin/python3
+[6.009s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[6.009s]   /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/package.xml
+[6.009s]   /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints/ament_cmake_core/package.cmake)
+[6.009s]   returned error code 1
+[6.010s] Call Stack (most recent call first):
+[6.010s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[6.010s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[6.010s]   CMakeLists.txt:36 (ament_package)
+[6.010s] 
+[6.010s] [0m
+[6.010s] -- Configuring incomplete, errors occurred!
+[6.010s] See also "/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints/CMakeFiles/CMakeOutput.log".
+[6.024s] Invoked command in '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints' returned '1': /usr/bin/cmake /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints -DCMAKE_INSTALL_PREFIX=/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints

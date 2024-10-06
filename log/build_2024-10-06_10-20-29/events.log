@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.001027] (pre_xb9_distofpoints) JobQueued: {'identifier': 'pre_xb9_distofpoints', 'dependencies': OrderedDict()}
+[0.001753] (pre_xb9_distofpoints) JobStarted: {'identifier': 'pre_xb9_distofpoints'}
+[0.014982] (pre_xb9_distofpoints) JobProgress: {'identifier': 'pre_xb9_distofpoints', 'progress': 'cmake'}
+[0.016327] (pre_xb9_distofpoints) Command: {'cmd': ['/usr/bin/cmake', '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints', '-DCMAKE_INSTALL_PREFIX=/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints'], 'cwd': '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sajat2024'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/sajat2024'), ('OLDPWD', '/home/sajat2024'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/humble/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sajat2024'), ('NAME', 'DESKTOP-E62VGF9'), ('WSL_INTEROP', '/run/WSL/374_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Prebszl Arnold/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Prebszl Arnold/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Prebszl Arnold/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Prebszl Arnold/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Prebszl Arnold/.dotnet/tools:/snap/bin'), ('WT_SESSION', '63479a8b-f1cf-4f7d-9cbb-114e1b169470'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '98'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.039153] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099048] (-) TimerEvent: {}
+[0.199634] (-) TimerEvent: {}
+[0.290897] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299801] (-) TimerEvent: {}
+[0.400553] (-) TimerEvent: {}
+[0.411716] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.415324] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.424285] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.440102] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.457934] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500955] (-) TimerEvent: {}
+[0.505778] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.507349] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.601151] (-) TimerEvent: {}
+[0.701915] (-) TimerEvent: {}
+[0.802690] (-) TimerEvent: {}
+[0.903546] (-) TimerEvent: {}
+[1.004419] (-) TimerEvent: {}
+[1.105330] (-) TimerEvent: {}
+[1.206366] (-) TimerEvent: {}
+[1.307320] (-) TimerEvent: {}
+[1.408147] (-) TimerEvent: {}
+[1.508931] (-) TimerEvent: {}
+[1.609548] (-) TimerEvent: {}
+[1.710068] (-) TimerEvent: {}
+[1.810649] (-) TimerEvent: {}
+[1.911276] (-) TimerEvent: {}
+[2.011867] (-) TimerEvent: {}
+[2.112460] (-) TimerEvent: {}
+[2.213033] (-) TimerEvent: {}
+[2.313625] (-) TimerEvent: {}
+[2.414232] (-) TimerEvent: {}
+[2.514812] (-) TimerEvent: {}
+[2.615379] (-) TimerEvent: {}
+[2.715948] (-) TimerEvent: {}
+[2.816576] (-) TimerEvent: {}
+[2.917139] (-) TimerEvent: {}
+[3.017660] (-) TimerEvent: {}
+[3.118177] (-) TimerEvent: {}
+[3.218700] (-) TimerEvent: {}
+[3.319301] (-) TimerEvent: {}
+[3.419865] (-) TimerEvent: {}
+[3.520444] (-) TimerEvent: {}
+[3.621026] (-) TimerEvent: {}
+[3.721602] (-) TimerEvent: {}
+[3.822107] (-) TimerEvent: {}
+[3.922723] (-) TimerEvent: {}
+[4.023316] (-) TimerEvent: {}
+[4.123850] (-) TimerEvent: {}
+[4.134837] (pre_xb9_distofpoints) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.223991] (-) TimerEvent: {}
+[4.228041] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.324078] (-) TimerEvent: {}
+[4.374989] (pre_xb9_distofpoints) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.382306] (pre_xb9_distofpoints) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:24 (add_executable):\n'}
+[4.382722] (pre_xb9_distofpoints) StderrLine: {'line': b'  Cannot find source file:\n'}
+[4.382924] (pre_xb9_distofpoints) StderrLine: {'line': b'\n'}
+[4.383094] (pre_xb9_distofpoints) StderrLine: {'line': b'    src/publisher.cpp\n'}
+[4.383253] (pre_xb9_distofpoints) StderrLine: {'line': b'\n'}
+[4.383405] (pre_xb9_distofpoints) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[4.383555] (pre_xb9_distofpoints) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[4.383714] (pre_xb9_distofpoints) StderrLine: {'line': b'\n'}
+[4.383859] (pre_xb9_distofpoints) StderrLine: {'line': b'\x1b[0m\n'}
+[4.387868] (pre_xb9_distofpoints) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (add_executable):\n'}
+[4.388171] (pre_xb9_distofpoints) StderrLine: {'line': b'  Cannot find source file:\n'}
+[4.388342] (pre_xb9_distofpoints) StderrLine: {'line': b'\n'}
+[4.388486] (pre_xb9_distofpoints) StderrLine: {'line': b'    src/subscriber.cpp\n'}
+[4.388626] (pre_xb9_distofpoints) StderrLine: {'line': b'\n'}
+[4.388761] (pre_xb9_distofpoints) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[4.388900] (pre_xb9_distofpoints) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[4.389038] (pre_xb9_distofpoints) StderrLine: {'line': b'\n'}
+[4.389174] (pre_xb9_distofpoints) StderrLine: {'line': b'\x1b[0m\n'}
+[4.389319] (pre_xb9_distofpoints) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:24 (add_executable):\n'}
+[4.389466] (pre_xb9_distofpoints) StderrLine: {'line': b'  No SOURCES given to target: publisher\n'}
+[4.389665] (pre_xb9_distofpoints) StderrLine: {'line': b'\n'}
+[4.389805] (pre_xb9_distofpoints) StderrLine: {'line': b'\x1b[0m\n'}
+[4.389946] (pre_xb9_distofpoints) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:26 (add_executable):\n'}
+[4.390082] (pre_xb9_distofpoints) StderrLine: {'line': b'  No SOURCES given to target: subscriber\n'}
+[4.390216] (pre_xb9_distofpoints) StderrLine: {'line': b'\n'}
+[4.390351] (pre_xb9_distofpoints) StderrLine: {'line': b'\x1b[0m\n'}
+[4.390485] (pre_xb9_distofpoints) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[4.404220] (pre_xb9_distofpoints) CommandEnded: {'returncode': 1}
+[4.424236] (-) TimerEvent: {}
+[4.454538] (pre_xb9_distofpoints) JobEnded: {'identifier': 'pre_xb9_distofpoints', 'rc': 1}
+[4.465800] (-) EventReactorShutdown: {}

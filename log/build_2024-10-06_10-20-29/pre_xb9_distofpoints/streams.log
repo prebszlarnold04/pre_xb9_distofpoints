@@ -1,0 +1,41 @@
+[0.021s] Invoking command in '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints -DCMAKE_INSTALL_PREFIX=/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints
+[0.038s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.289s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.410s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.414s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.423s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.439s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.456s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.504s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.506s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.133s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.227s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.373s] -- Configuring done
+[4.381s] [31mCMake Error at CMakeLists.txt:24 (add_executable):
+[4.381s]   Cannot find source file:
+[4.381s] 
+[4.381s]     src/publisher.cpp
+[4.382s] 
+[4.382s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[4.382s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[4.382s] 
+[4.382s] [0m
+[4.386s] [31mCMake Error at CMakeLists.txt:26 (add_executable):
+[4.386s]   Cannot find source file:
+[4.387s] 
+[4.387s]     src/subscriber.cpp
+[4.387s] 
+[4.387s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[4.387s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[4.387s] 
+[4.387s] [0m
+[4.388s] [31mCMake Error at CMakeLists.txt:24 (add_executable):
+[4.388s]   No SOURCES given to target: publisher
+[4.388s] 
+[4.388s] [0m
+[4.388s] [31mCMake Error at CMakeLists.txt:26 (add_executable):
+[4.388s]   No SOURCES given to target: subscriber
+[4.388s] 
+[4.389s] [0m
+[4.389s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[4.403s] Invoked command in '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints -DCMAKE_INSTALL_PREFIX=/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints
