@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target coordsubscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target coordpublisher[0m
+[100%] Built target coordpublisher
+[100%] Built target coordsubscriber
+-- Install configuration: ""
+-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/launch
+-- Installing: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/launch/coordlaunch.py
+-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/launch/launch_example2.launch.py
+-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/lib/pre_xb9_distofpoints/coordpublisher
+-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/lib/pre_xb9_distofpoints/coordsubscriber
+-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/ament_index/resource_index/package_run_dependencies/pre_xb9_distofpoints
+-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/ament_index/resource_index/parent_prefix_path/pre_xb9_distofpoints
+-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/environment/path.sh
+-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/environment/path.dsv
+-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/local_setup.bash
+-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/local_setup.sh
+-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/local_setup.zsh
+-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/local_setup.dsv
+-- Installing: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/package.dsv
+-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/ament_index/resource_index/packages/pre_xb9_distofpoints
+-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/cmake/pre_xb9_distofpointsConfig.cmake
+-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/cmake/pre_xb9_distofpointsConfig-version.cmake
+-- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/package.xml

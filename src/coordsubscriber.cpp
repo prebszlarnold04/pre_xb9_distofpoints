@@ -18,7 +18,7 @@ private:
         //Ha a beérkező koordináták az első pont koordinátái, akkor csak kiírjuk azokat a képernyőre
         if (previous_point_ == nullptr)
         {
-            RCLCPP_INFO(this->get_logger(), "Az első generált pontunk: x=%.2f, y=%.2f", point->x, point->y);
+            RCLCPP_INFO(this->get_logger(), "Az első generált koordinátáink: x=%.2f, y=%.2f", point->x, point->y);
             previous_point_ = std::make_shared<geometry_msgs::msg::Point>(*point);
             return;
         }
@@ -28,7 +28,7 @@ private:
             std::pow(point->x - previous_point_->x, 2) +
             std::pow(point->y - previous_point_->y, 2));
 
-        RCLCPP_INFO(this->get_logger(), "A kapott pontok: x=%.2f, y=%.2f ; A pontok közötti távolság: %.2f", point->x, point->y, distance);
+        RCLCPP_INFO(this->get_logger(), " A pontok közötti távolság: %.2f",  distance);
         *previous_point_ = *point; // Az aktuális pontot beállítjuk az előző pontnak
     }
 

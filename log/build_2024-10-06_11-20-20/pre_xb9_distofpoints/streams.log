@@ -1,0 +1,27 @@
+[0.031s] Invoking command in '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints -- -j16 -l16
+[0.193s] [100%] Built target coordpublisher
+[0.195s] [100%] Built target coordsubscriber
+[0.212s] Invoked command in '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints -- -j16 -l16
+[0.267s] Invoking command in '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints
+[0.278s] -- Install configuration: ""
+[0.278s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/launch
+[0.279s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/launch/coordlaunch.py
+[0.279s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/launch/launch_example2.launch.py
+[0.281s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/lib/pre_xb9_distofpoints/coordpublisher
+[0.283s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/lib/pre_xb9_distofpoints/coordsubscriber
+[0.283s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/ament_index/resource_index/package_run_dependencies/pre_xb9_distofpoints
+[0.284s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/ament_index/resource_index/parent_prefix_path/pre_xb9_distofpoints
+[0.284s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/environment/ament_prefix_path.sh
+[0.285s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/environment/ament_prefix_path.dsv
+[0.285s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/environment/path.sh
+[0.285s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/environment/path.dsv
+[0.285s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/local_setup.bash
+[0.285s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/local_setup.sh
+[0.285s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/local_setup.zsh
+[0.285s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/local_setup.dsv
+[0.286s] -- Installing: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/package.dsv
+[0.287s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/ament_index/resource_index/packages/pre_xb9_distofpoints
+[0.288s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/cmake/pre_xb9_distofpointsConfig.cmake
+[0.288s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/cmake/pre_xb9_distofpointsConfig-version.cmake
+[0.288s] -- Up-to-date: /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/install/pre_xb9_distofpoints/share/pre_xb9_distofpoints/package.xml
+[0.292s] Invoked command in '/home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sajat2024/ros2_ws/src/pre_xb9_distofpoints/build/pre_xb9_distofpoints

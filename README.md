@@ -1,35 +1,9 @@
-# `pre_xb9_distofpoints` package
-ROS 2 C++ package.  [![Static Badge](https://img.shields.io/badge/ROS_2-Humble-34aec5)](https://docs.ros.org/en/humble/)
-## Packages and build
-
-It is assumed that the workspace is `~/ros2_ws/`.
-
-### Clone the packages
-``` r
-cd ~/ros2_ws/src
-```
-``` r
-git clone https://github.com/prebszlarnold04/pre_xb9_distofpoints
-```
-
-### Build ROS 2 packages
-``` r
-cd ~/ros2_ws
-```
-``` r
-colcon build --packages-select pre_xb9_distofpoints --symlink-install
-```
-
-<details>
-<summary> Don't forget to source before ROS commands.</summary>
-
-``` bash
-source ~/ros2_ws/install/setup.bash
-```
-</details>
-
-``` r
-ros2 launch pre_xb9_distofpoints launch_example1.launch.py
-```
+A projektem rövid ismertetője:
+Coordpublisher.cpp:
+Az srs-ben található coordpublisher.cpp nevű node -200.00 és 200.00 között generál értékeket, amik egy 2 dimenziós pont koordinátáit jelölik.
+Coordsubscriber.cpp:
+Az src könyvtár tartalmaz még, egy coordsubscriber.cpp nevezetű node-ot, amely ezeket az értékeket felhasználva, kiszámítja  2 egymás után beérkező pont távolságát.
+Coordlaunch.py
+A launch könyvtárban található coordlaunch.py meghívásával pedig el lehet indítani mindkét node-ot egyszerre.
 
 

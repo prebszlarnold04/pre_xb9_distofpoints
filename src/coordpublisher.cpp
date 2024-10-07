@@ -22,7 +22,7 @@ private:
         message.x = random_coordinate();
         message.y = random_coordinate();
         message.z = 0.0; // Z tengely nem szükséges, mivel 2D koordinátákat használunk :)
-        RCLCPP_INFO(this->get_logger(), "Publishing: x=%.2f, y=%.2f", message.x, message.y);
+        RCLCPP_INFO(this->get_logger(), "A generált pontok: x=%.2f, y=%.2f", message.x, message.y);
         publisher_->publish(message);
     }
 
